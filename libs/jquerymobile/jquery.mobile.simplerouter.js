@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2010 devnight.net. All rights reserved.  Use of this
  * source code is governed by a MIT license that can be found at
- * http://devnight.net/LICENSE/MIT
+ * http://ragingwind.github.com/LICENSE/MIT
  *
  * Image processing example for iOS
  * http://github.com/ragingwind/image-processing.cc
