@@ -2,6 +2,8 @@
 // Written by Mark Perkins, mark@allmarkedup.com
 // License: http://unlicense.org/ (i.e. do what you want with it!)
 
+define(['jquery'], function ($) {
+	
 ;(function($, undefined) {
     
     var tag2attr = {
@@ -157,3 +159,5 @@
 	};
 	
 })(jQuery);
+
+});
