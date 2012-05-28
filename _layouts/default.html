@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!-- 
+320 and Up boilerplate extension
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup 
+-->
+
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" manifest="default.appcache?v=1" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>{{ page.title }}</title>
+<meta name="description" content="">
+<meta name="author" content="{{ site.owner-name }}">
+
+{% include boilerplate_css_scripts.html %}
+
+<body class="clearfix">
+
+<header role="banner" class="clearfix">
+<h1>{{ page.title }}</h1>
+</header>
+
+<div class="content clearfix">
+
+<article role="main">
+{{ content }}
+</article>
+
+<aside role="complementary">
+</aside>
+
+</div>
+
+<footer role="contentinfo" class="clearfix">
+  <p>{{ site.license }} <a href="{{ site.owner-page }}">{{ site.owner-name}}</a></p>
+</footer>
+
+{% include boilerplate_analytics_scripts.html %}
+
+</body>
+</html>

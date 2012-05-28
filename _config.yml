@@ -1,0 +1,10 @@
+markdown: rdiscount
+auto: true
+
+exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
+
+owner-name: ragingwind 
+owner-page: ragingwind
+owner-email: ragingwind@gmail.com
+server_port: 9000
+license: your license of choice

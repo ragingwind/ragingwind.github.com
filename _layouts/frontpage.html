@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header>
+<h1>Posts<h1>
+</header>
+{% for ps in site.posts %}
+<section>
+<header class="post-header">
+<hgroup>
+<h1><a href="{{ ps.url }}">{{ ps.title }}</a></h1>
+<time datetime="{{ ps.date }}" pubdate>{{ ps.date }}</time>
+</hgroup>
+</header>
+</section>
+{% endfor %}
