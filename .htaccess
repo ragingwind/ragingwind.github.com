@@ -473,3 +473,4 @@ AddCharset utf-8 .html .css .js .xml .json .rss
 
 
 
+Redirect /twitter http://twitter.com/ragingwind
